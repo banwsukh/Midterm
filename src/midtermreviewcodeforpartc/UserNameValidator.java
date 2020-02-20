@@ -12,7 +12,6 @@ package midtermreviewcodeforpartc;
 public class UserNameValidator {
     
     public boolean goodUsername(String name) {
-        System.out.println("received from userbane val meth " + name);
         if (name.equals("") || name.equals(null)) {
         
             return false;
